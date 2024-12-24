@@ -1,0 +1,91 @@
+.multiple-choice-container {
+  margin: 20px;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  width: 100%;
+  max-width: 600px;
+
+  margin: auto auto;
+}
+
+.options-list {
+  list-style: none;
+  padding: 0;
+}
+
+.option-item {
+  margin-bottom: 10px;
+}
+
+.option-button {
+  padding: 10px 20px;
+  /* background-color: #2676ee; */
+  background-color: white;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1em;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+  width: 100%;
+  text-align: left;
+  border: 2px solid rgb(235, 235, 235);
+  color: black;
+  font-weight: 500;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 10px;
+  min-height: 55px;
+}
+
+.option-button:hover {
+  /* background-color: #0056b3; */
+  color: rgb(0, 0, 0);
+  border: 2px solid #0561d1;
+  background-color: #09a5cc13;
+}
+.activeItem {
+  /* background-color: #0056b3;
+  color: white; */
+  color: rgb(0, 0, 0);
+  border: 2px solid #0561d1;
+  background-color: #09a5cc13;
+}
+.list-item {
+  margin: 30px 0px !important;
+}
+
+.option-button.ant-checkbox-input {
+  border-radius: 50% !important;
+  padding: 40px !important;
+}
+.question-number {
+  border: 1px solid rgb(187, 187, 187);
+  width: 30px;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+@media (max-width: 780px) {
+  .option-button {
+    font-size: 12px;
+    padding: 10px;
+    font-size: 10px;
+  }
+  .question-number {
+    border: 1px solid rgb(187, 187, 187);
+    width: 20px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+  }
+}

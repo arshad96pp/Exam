@@ -1,0 +1,23 @@
+.main-result-box-item {
+  max-width: 550px;
+  margin: 0 auto;
+  padding: 10px;
+  height: 100vh;
+
+  overflow: hidden;
+}
+.result_user_section-item {
+  background-color: #ffffff;
+  border-radius: 0px;
+  padding: 20px;
+  /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+  height: auto;
+}
+.btn-backto-home {
+  background-color: rgb(255, 255, 255) !important;
+  margin-left: auto;
+  font-weight: 500;
+}

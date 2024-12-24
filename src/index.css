@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+.mainLayout {
+  
+}
+.ant-layout {
+  min-height: 100vh;
+}
+.mainLayout .ant-row {
+  height: 100vh;
+}
+.mainLayout .ant-col {
+  height: 100% !important;
+}
+
+.question-tag {
+  font-size: 17px;
+  margin-bottom: 25px;
+  font-weight: 500;
+}
+
+@media (max-width: 780px) {
+  .mainLayout .ant-row {
+    height: auto;
+  }
+  .question-tag {
+    font-size: 13px;
+    margin-bottom: 25px;
+  }
+  .mainLayout {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+}

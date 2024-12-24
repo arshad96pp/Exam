@@ -1,0 +1,52 @@
+.next-submit {
+  margin: 10px 0px;
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+}
+.error {
+  font-size: 12px;
+}
+
+/* button styles */
+.animation-btn {
+  background-color: rgb(228, 228, 235);
+  color: white;
+  width: 20%;
+  padding: 13px 0px;
+  border-radius: 10px;
+  font-weight: 500;
+}
+.animation-btn-back{
+  color: rgb(0, 0, 0);
+  width: 20%;
+  padding: 13px 0px;
+  border-radius: 10px;
+  font-weight: 500;
+  background-color: white;
+
+}
+.animation-btn-active {
+  background-color: #0056b3;
+}
+@media (max-width: 780px) {
+  .animation-btn {
+    background-color: rgb(228, 228, 235);
+    color: white;
+    width: 50%;
+    padding: 13px 0px;
+    border-radius: 10px;
+    font-weight: 500;
+  }
+  .animation-btn-back{
+    color: rgb(0, 0, 0);
+    background-color: white !important;
+    width: 50%;
+    padding: 13px 0px;
+    border-radius: 10px;
+    font-weight: 500;
+  }
+  .animation-btn-active {
+    background-color: #0056b3;
+  }
+}

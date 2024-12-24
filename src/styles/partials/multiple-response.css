@@ -1,0 +1,67 @@
+.app-container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.multiple-response-container {
+  /* margin-top: 20px; */
+  /* margin: 20px; */
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+.multiple-response-container h3{
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.check-box-mult{
+  margin-bottom: 10px;
+}
+
+.option-label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.submit-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.result-message {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.result-message.correct {
+  color: #155724;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+}
+
+.result-message.incorrect {
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+}
+
+.border-item{
+  /* border: 1px solid rgb(119, 119, 119); */
+  /* padding: 10px; */
+  /* border-radius: 5px; */
+  margin-bottom: 20px;
+}
